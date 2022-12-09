@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"><!--icons package-->
+    <link rel="stylesheet" href="pop2.css">
+    
+</head>
+<body>
+    
+
+<section id="popupcon">
+            <section id="ani_1">
+            <div class="a1">
+                <div class="circle"></div>
+            </div>
+            <div class="a2">
+                <div class="circle1"></div>
+            </div>
+        </section>
+  
+    
+
+
+<div id="popup">
+    <div class="container"> 
+        <div class="forms"> 
+            <div class="form login"> <!--login-->
+                <span class="wc">Want to continue? </span><br>
+                <span class="title">Log in to your account</span>
+
+                <form action="#"> 
+                    
+                    <div class="input-field">
+                        <input id="username" name="username" type="text" placeholder="Enter your email " required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div> 
+                    <small id="erroruser" style="color: #ff0000;"></small>
+
+
+                    <div class="input-field">
+                        <input id="passwd" type="password" class="password" placeholder="Enter your password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div><small id="errorpw" style="color: #ff0000;"></small>
+
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input id="tick"  type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Remember me</label>
+                        </div>
+
+                        
+                        <a href="#" class="text">Forgot password?</a>
+                       
+                    </div>
+
+
+                    <br><small id="errortick" style="color: #ff0000;"></small>
+
+
+
+                    <div class="input-field button">
+                        <input id="close1" type="button" value="Login">
+                    </div>
+
+
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text signup-link">Signup Now</a>
+                    </span>
+                </div>
+            </div>
+
+
+
+
+
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registration</span>
+
+
+                <form action="#">
+                    <div class="input-field">
+                        <input id="username1" type="text" placeholder="Enter your name" required>
+                        <i class="uil uil-user"></i>
+                    </div><small id="erroruser1" style="color: #ff0000;"></small>
+
+
+                    <div class="input-field">
+                        <input id="email" type="text" placeholder="Enter your email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div><small id="erroremail" style="color: #ff0000;"></small>
+
+
+                    <div class="input-field">
+                        <input id="passwd1"  type="password" class="password" placeholder="Create a password" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div><small id="errorpw1" style="color: #ff0000;"></small>
+
+
+                    <div class="input-field">
+                        <input id="conpasswd" type="password" class="password" placeholder="Confirm a password" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i> 
+                    </div><small id="errorpw2" style="color: #ff0000;"></small>
+
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon" class="check">
+                            <label for="termCon" class="text">I agree to all <a class="purple"  href="#"> terms </a> and <a class="purple"  href="#"> conditions</a></label>
+                        </div>
+                    </div>
+                    <small id="errortick1" style="color: #ff0000;"></small>
+
+                    <div class="input-field button">
+                        <input id="close2" type="button" value="Signup">
+                    </div>
+
+                    
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Already a member?
+                        <a href="#" class="text login-link">Login Now</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+</section>
+<script src="pop2.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petal Puzzle</title>
+    <link rel="stylesheet" href="main-quiz.css">
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
+      </script>
+</head>
+
+<body>
+    <div id="final-box" class="final">
+    <p id="top">Tread softly,stranger</p>
+    <nav>PETAL PUZZLE</nav>
+    <main>
+        <section id="full">
+            <section id="q1">
+                <fieldset class="first card">
+                    <legend>QUESTION-1</legend>
+                    <p>
+                        OK. This one isn’t a flower, but we all know how important foliage can be to a successful floral
+                        design.
+                        These fuzzy, silvery leaves add a wonderful, soft-textured accent to arrangements.
+                    </p>
+                    <div id="c_1">
+                        <label class="options p1"><input type="radio" id="c11" value="Salal" name="a">Salal</label>
+                        <label class="options p1"><input type="radio" id="c12" value="Eucalptus" name="a">Eucalptus
+                        </label>
+                        <label class="options c1"><input type="radio" id="correct1" value="Dusty Miller" name="a">Dusty
+                            Miller </label>
+                        <label class="options p1"><input type="radio" id="c13" value="Lambs Ears " name="a">Lambs Ears
+                        </label>
+                    </div>
+                    <button id="h1" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit1" class="check-btn" onclick="checkbtn1()">check</button>
+                </div>
+                <h4 id="disp1" style="color:green ; background-color: white;"></h4>
+                <h4 id="error1" style="color:red; background-color: white;"></h4>
+
+
+            </section>
+
+            <section id="q2">
+                <fieldset class="second card">
+                    <legend>QUESTION-2</legend>
+                    <p>
+                        This old-fashioned flower possesses a distinctive, spicy-sweet fragrance that some people
+                        compare to
+                        cloves. Its white, yellow, pink, lilac, peach, blue, or magenta blossoms grow on long spikes
+                        making
+                        them
+                        ideal for arrangements. In the garden, they can grow to more than eight feet tall. <br>
+                    </p>
+                    <div id="c_2">
+                        <label class="options c2"><input type="radio" id="correct2" value="Stock" name="b">Stock</label>
+                        <label class="options p2"><input type="radio" id="c21" value="Larkspur" name="b"> Larkspur
+                        </label>
+                        <label class="options p2"><input type="radio" id="c22" value="Snapdragons"
+                                name="b">Snapdragons</label>
+                        <label class="options p2"><input type="radio" id="c23" value="Ruffled Lupine" name="b">Ruffled
+                            Lupine </label>
+                    </div>
+                    <button id="h2" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit2" class="check-btn" onclick="checkbtn2()">check</button>
+                </div>
+                <h4 id="disp2" style="color:green ; background-color: white;"></h4>
+                <h4 id="error2" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q3">
+                <fieldset class="third card">
+                    <legend>QUESTION-3</legend>
+                    <p>
+                        Long-lasting blooms, an amazing range of colors, and exotic beauty make this orchid species a
+                        favorite
+                        of professional and amateur floral designers alike.
+                    </p>
+                    <div id="c_3">
+                        <label class="options c3"><input type="radio" id="correct3" value="Phalaenopsis Orchids"
+                                name="c">Phalaenopsis Orchids </label>
+                        <label class="options p3"><input type="radio" id="c31" value="Vanda Orchids" name="c">Vanda
+                            Orchids
+                        </label>
+                        <label class="options p3"><input type="radio" id="c32" value="Cattleya Orchids"
+                                name="c">Cattleya
+                            Orchids </label>
+                        <label class="options p3"><input type="radio" id="c33" value="ONCIDIUM Orchids"
+                                name="c">Oncidium
+                            Orchids </label>
+                    </div>
+
+                    <button id="h3" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit3" class="check-btn" onclick="checkbtn3()">check</button>
+                </div>
+                <h4 id="disp3" style="color:green ; background-color: white;"></h4>
+                <h4 id="error3" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q4">
+                <fieldset class="fourth card">
+                    <legend>QUESTION-4</legend>
+                    <p>
+                        These lush, frothy blossoms appear in spring and are a favorite of designers. They’re seen in
+                        almost
+                        every color and are the traditional floral symbol of China.
+                    </p>
+                    <div id="c_4">
+                        <label class="options p4"><input type="radio" id="c41" value="Garden Roses" name="d"> Garden
+                            Roses
+                        </label>
+                        <label class="options p4"><input type="radio" id="c42" value="Narcissus" name="d">
+                            Narcissus</label>
+                        <label class="options p4"><input type="radio" id="c43" value="Camellias" name="d">Camellias
+                        </label>
+                        <label class="options c4"><input type="radio" id="correct4" value="Peonies" name="d">Peonies
+                        </label>
+                    </div>
+
+                    <button id="h4" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit4" class="check-btn" onclick="checkbtn4()">check</button>
+                </div>
+                <h4 id="disp4" style="color:green ; background-color: white;"></h4>
+                <h4 id="error4" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q5">
+                <fieldset class="fifth card">
+                    <legend>QUESTION-5</legend>
+                    <p>
+                        Spend any time watching a patch or field of these flowers and you will see that the bright heads
+                        turn
+                        their faces throughout the day. They are following the sun as it flies across the sky.
+                    </p>
+                    <div id="c_5">
+                        <label class="options p5"><input type="radio" id="c51" value="Coneflowers" name="e">Coneflowers
+                        </label>
+                        <label class="options c5"><input type="radio" id="correct5" value="Sunflowers" name="e">
+                            Sunflowers</label>
+                        <label class="options p5"><input type="radio" id="c52" value="Sneezeweed"
+                                name="e">Sneezeweed</label>
+                        <label class="options p5"><input type="radio" id="c53" value="Golden Dahlias" name="e">Golden
+                            Dahlias</label>
+                    </div>
+
+                    <button id="h5" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit5" class="check-btn" onclick="checkbtn5()">check</button>
+                </div>
+                <h4 id="disp5" style="color:green ; background-color: white;"></h4>
+                <h4 id="error5" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q6">
+                <fieldset class="sixth card">
+                    <legend>QUESTION-6</legend>
+                    <p>
+                        Grown from tubers, this plant not only features some of the garden’s showiest flowers, it
+                        produces
+                        abundant blossoms from late summer through the fall.
+                    </p>
+                    <div id="c_6">
+                        <label class="options p6"><input type="radio" id="c61" value="Coneflowers" name="f">Coneflowers
+                        </label>
+                        <label class="options p6"><input type="radio" id="c62" value="Sunflowers" name="f">
+                            Sunflowers</label>
+                        <label class="options c6"><input type="radio" id="correct6" value="Dahlias"
+                                name="f">Dahlias</label>
+                        <label class="options p6"><input type="radio" id="c63" value="Hollhocks"
+                                name="f">Hollhocks</label>
+                    </div>
+
+                    <button id="h6" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit6" class="check-btn" onclick="checkbtn6()">check</button>
+                </div>
+                <h4 id="disp6" style="color:green ; background-color: white;"></h4>
+                <h4 id="error6" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+
+            <section id="q7">
+                <fieldset class="seventh card">
+                    <legend>QUESTION-7</legend>
+                    <p>
+                        These hardy shrubs prefer cooler climates and bloom in late winter and early spring. Most
+                        commonly
+                        known
+                        for their soft purple color, there are varieties in yellow, blue, pink, white, and red. The
+                        flowers’
+                        fragrance is rich and floral, sometimes compared to rose with a hint of vanilla.
+                    </p>
+                    <div id="c_7">
+                        <label class="options p7"><input type="radio" id="c71" value="Lavender" name="g">Lavender
+                        </label>
+                        <label class="options p7"><input type="radio" id="c72" value="Crepe Myrtle" name="g"> Crepe
+                            Myrtle</label>
+                        <label class="options c7"><input type="radio" id="correct7" value="Lilacs"
+                                name="g">Lilacs</label>
+                        <label class="options p7"><input type="radio" id="c73" value="Weigela" name="g">Weigela</label>
+                    </div>
+
+                    <button id="h7" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit7" class="check-btn" onclick="checkbtn7()">check</button>
+                </div>
+                <h4 id="disp7" style="color:green ; background-color: white;"></h4>
+                <h4 id="error7" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q8">
+                <fieldset class="eighth card">
+                    <legend>QUESTION-8</legend>
+                    <p>
+                        Flowers of this member of the aster family symbolize innocence and purity. While most commonly
+                        white
+                        with a yellow center, the petals can have a pink cast.
+                    </p>
+                    <div id="c_8">
+                        <label class="options p8"><input type="radio" id="c81" value="Dahlias" name="h">Dahlias</label>
+                        <label class="options c8"><input type="radio" id="correct8" value="Daisies" name="h">
+                            Daisies</label>
+                        <label class="options p8"><input type="radio" id="c82" value="Coneflowers"
+                                name="h">Coneflowers</label>
+                        <label class="options p8"><input type="radio" id="c83" value="Dogwood" name="h">Dogwood</label>
+                    </div>
+
+                    <button id="h8" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit8" class="check-btn" onclick="checkbtn8()">check</button>
+                </div>
+                <h4 id="disp8" style="color:green ; background-color: white;"></h4>
+                <h4 id="error8" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q9">
+                <fieldset class="ninth card">
+                    <legend>QUESTION-9</legend>
+                    <p>
+                        This flowering bulb, most associated with Christmas and holiday arrangements, can grow from bulb
+                        to
+                        blossoming plant in about four weeks. Flowers are most commonly red, white, or striped.
+                    </p>
+                    <div id="c_9">
+                        <label class="options p9"><input type="radio" id="c91" value="Paperwhites"
+                                name="i">Paperwhites</label>
+                        <label class="options c9"><input type="radio" id="correct9" value="Amaryllis"
+                                name="i">Amaryllis</label>
+                        <label class="options p9"><input type="radio" id="c92" value="Tulips" name="i">Tulips</label>
+                        <label class="options p9"><input type="radio" id="c93" value="Fritillaria"
+                                name="i">Fritillaria</label>
+                    </div>
+
+                    <button id="h9" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit9" class="check-btn" onclick="checkbtn9()">check</button>
+                </div>
+                <h4 id="disp9" style="color:green ; background-color: white;"></h4>
+                <h4 id="error9" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+
+            <section id="q10">
+                <fieldset class="tenth card">
+                    <legend>QUESTION-10</legend>
+                    <p>
+                        These fragrant flowering bulbs burst into bloom in late winter and early spring, sometimes
+                        pushing
+                        their
+                        violet, pink, or white buds through the snow.
+                    </p>
+                    <div id="c_10">
+                        <label class="options p10"><input type="radio" id="c101" value="Purple Loosestrife"
+                                name="j">Purple
+                            Loosestrife</label>
+                        <label class="options c10"><input type="radio" id="correct10" value="Hyacinths"
+                                name="j">Hyacinths</label>
+                        <label class="options p10"><input type="radio" id="c102" value="Lilacs" name="j">Lilacs</label>
+                        <label class="options p10"><input type="radio" id="c103" value="Catmint"
+                                name="j">Catmint</label>
+                    </div>
+
+                    <button id="h10" class="hint-btn"> HINT</button>
+                    
+                </fieldset>
+                <div class="btn-pos">
+                    <button id="submit10" class="check-btn" onclick="checkbtn10()">check</button>
+                </div>
+                <h4 id="disp10" style="color:green ; background-color: white;"></h4>
+                <h4 id="error10" style="color:red; background-color: white;"></h4>
+
+            </section>
+
+        </section>
+        <section class="side-bar">
+            <p class="side">flower (& a little bit of fire 😛) brought to you by - </p>
+            <p class="side">aarti, pari, pragya & tanishqa</p>
+            <fieldset class="sidef">
+                <legend class="sidel"><img src="nav.svg" style="width:2em; height:2em;" class="sidei"></legend>
+                <span class="sides"><a href="intro-quiz.html" class="sidea">Home</a></span> <br>
+                <span class="sides"><a href="bts-quiz.html" class="sidea">BTS</a></span>
+                <span class="sides scroll"><a href="#top" class="sidea" style="padding-top: 5%; font-size: x-small; color: black; ">(Back to top.)</a></span>
+            </fieldset>
+        </section>
+    </main>
+
+
+    <br><br><br>
+    <section id="footer">
+        <div class="submit-btn">
+            <button id="result" class="generate-btn" onclick="score()">
+                <a href="#">
+                    <span>Click here to generate report.</span>
+                    <span>Click here to generate report.</span>
+                </a>
+            </button>
+            <button id="result" class="generate-btn">
+                <a href="main-quiz.html">
+                    <span>Click here to refresh.</span>
+                    <span>Click here to refresh.</span>
+                </a>
+            </button>
+        </div>
+        <!-- <a href="#top" class="to_the_top">Back to top.</a> -->
+    </section>
+    <!-- <a href="trial.html">
+        <span style="color: black; border: 2px solid black; background: rgb(137, 131, 131); padding: 10px;">Click to refresh</span>
+        <span>Click to refresh</span>
+    </a> -->
+</div>
+<p id="bgf"></p>
+    <script src="main-quiz.js"></script>
+
+</body>
+</html>
